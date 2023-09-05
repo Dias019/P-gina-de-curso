@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .par{
 
 text-align: center;
@@ -9,6 +15,10 @@ text-align: center;
 
 #topicos{
     font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    text-align: left;
+   
+
 }
 
 h1,h2{
@@ -17,6 +27,7 @@ h1,h2{
 
 h1{
     padding: 25px;
+    margin-bottom: 20px;
 }
 
 button {
@@ -69,4 +80,64 @@ button {
     box-shadow: inset 0 0 0 10em  rgb(218, 18, 168);
   }
 
+  body{
+   min-height: 100vh;
   
+ 
+  }
+
+  .mapBox{
+    position: relative;
+    width: 600px;
+    height: 350px;
+    background-color: #fff;
+    margin: 0 auto;
+  }
+  
+  .mapBox iframe{
+    width: 100%;
+    height: 100%;
+  }
+
+  .cointeiner{
+    
+    align-items:center;
+  }
+
+  .image{
+    max-width: 40%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+
+  p{
+    flex-grow: 1;
+    text-align: left;
+    margin-bottom: 15px;
+    
+  }
+  
+  ol{
+    text-align: left;
+    margin: 5px;
+
+  }
+   li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+   }
+
+   .image2{
+    max-width: 40%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+
+  .texto1{
+    text-align: right;
+    margin-bottom: 23px;
+  }
+
+  .linha{
+    margin-bottom: 15px;
+  }
